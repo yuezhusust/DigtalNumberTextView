@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!-- 字体1占位小，所以加多一个空格表示 -->
+    <com.example.testView.DigtalNumberTextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="00:43"
+        android:textSize="40sp"
+        app:startColor="#0076C0"
+        app:endColor="#5EECFF"/>
+
+    <!-- 底部全部8显示效果 -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#0f0">
+
+        <com.example.testView.DigtalNumberTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="88:88:88"
+            android:textColor="#11ff0000"
+            android:textSize="40sp" />
+
+        <com.example.testView.DigtalNumberTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text=" 10:25: 18"
+            android:textColor="#f00"
+            android:textSize="40sp" />
+    </FrameLayout>
+
+</LinearLayout>

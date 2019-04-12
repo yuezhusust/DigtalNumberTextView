@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DigtalNumberTextView">
+        <attr name="startColor" format="string" />
+        <attr name="endColor" format="string" />
+    </declare-styleable>
+</resources>
